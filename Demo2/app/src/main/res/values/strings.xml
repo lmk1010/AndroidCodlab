@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo2</string>
+    <string name="Send">Send</string>
+    <string name="messagereceive">MessageReceive</string>
+    <string name="reply">Reply</string>
+    <string name="input_your_reply_message">input your reply message</string>
+</resources>
