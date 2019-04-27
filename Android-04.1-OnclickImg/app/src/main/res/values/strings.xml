@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android-04.1-OnclickImg</string>
+    <string name="goodshoping">商品购物</string>
+    <string name="tiantianquan">甜甜圈</string>
+    <string name="ice">冰淇淋</string>
+    <string name="book">书</string>
+    <string name="Des1">这是一个甜甜圈很美味！</string>
+    <string name="Des2">这是一个冰淇淋很好吃！</string>
+    <string name="DEs3">这是一本书，很有价值！</string>
+</resources>
