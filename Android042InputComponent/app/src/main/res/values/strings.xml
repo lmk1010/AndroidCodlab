@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Android-04.2-InputComponent</string>
+    <string name="Name">姓名:</string>
+    <string name="NameHint">请输入用户名</string>
+    <string name="AddressHint">请输入地址</string>
+    <string name="PhoneHint">请输入手机号码</string>
+    <string name="address">地址：</string>
+    <string name="input">输入控件</string>
+    <string name="phontnum">手机号:</string>
+    <string name="todayDe">今日送达</string>
+    <string name="NextDay">隔日送达</string>
+    <string name="CustomerDay">指定时间送达</string>
+    <string name="delvertime">选中派送时间</string>
+
+    <string-array name="labels_array">
+        <item>家庭</item>
+        <item>工作</item>
+        <item>私人</item>
+        <item>其他</item>
+    </string-array>
+</resources>
