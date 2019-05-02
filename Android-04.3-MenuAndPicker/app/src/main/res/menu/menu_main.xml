@@ -3,8 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.lmk.myapplication.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_cart"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_action_cart"
+        android:title="购物车"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_orders"
+        android:orderInCategory="20"
+        android:icon="@drawable/ic_action_order"
+        android:title="订单列表"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="40"
+        android:icon="@drawable/ic_action_favorite"
+        android:title="我的收藏"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_communication"
         android:orderInCategory="100"
-        android:title="设置"
+        android:title="联系方式"
         app:showAsAction="never" />
+
 </menu>
