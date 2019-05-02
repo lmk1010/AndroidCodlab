@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-04.4-Navigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monday">星期一</string>
+    <string name="thurday">星期二</string>
+    <string name="wendesday">星期三</string>
+</resources>
