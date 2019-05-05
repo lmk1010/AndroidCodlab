@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/fun1"
+        android:icon="@drawable/ic_action_wifi"
+        android:title="Wifi设置"/>
+
+    <item android:id="@+id/fun2"
+        android:icon="@drawable/ic_action_network"
+        android:title="移动网络设置"/>
+
+    <item android:id="@+id/fun3"
+        android:icon="@drawable/ic_action_name"
+        android:title="GPS设置"/>
+
+    <item android:id="@+id/fun4"
+        android:icon="@drawable/ic_action_bluetooth"
+        android:title="蓝牙设置"/>
+
+
+
+
+</menu>

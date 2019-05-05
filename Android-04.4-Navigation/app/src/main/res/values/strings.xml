@@ -6,4 +6,7 @@
     <string name="monday">星期一</string>
     <string name="thurday">星期二</string>
     <string name="wendesday">星期三</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
