@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android-05.1-ThemeDrawables</string>
+    <string name="action_settings">Settings</string>
+    <string name="value1">0</string>
+    
+    <string name="add_btn_des">增加</string>
+    <string name="cut_btn_des">减少</string>
+
+    <string name="DarkMode">
+        夜间模式
+    </string>
+
+    <string name="DayMode">
+        白天模式
+    </string>
+</resources>

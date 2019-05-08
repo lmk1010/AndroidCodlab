@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--父类按钮主题配置-->
+    <style name="BtnTheme" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_back</item>
+    </style>
+
+    <!--子类按钮的样式 继承父类的样式-->
+    <style name="AddBtnTheme" parent="BtnTheme">
+        <item name="android:src">@drawable/ic_action_add</item>
+        <item name="android:contentDescription">@string/add_btn_des</item>
+    </style>
+
+    <style name="CutBtnTheme" parent="BtnTheme">
+        <item name="android:src">@drawable/ic_action_cut</item>
+        <item name="android:contentDescription">@string/cut_btn_des</item>
+    </style>
+
+    <!--textview的统一样式-->
+    <style name="ScoreText1">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+
+
+
+
+</resources>

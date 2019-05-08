@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton0"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="0dp"
+            android:onClick="descore"
+            android:layout_marginTop="133dp"
+            style="@style/AddBtnTheme"/>
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="42dp"
+            android:onClick="inscore"
+            android:layout_marginRight="0dp"
+            style="@style/CutBtnTheme"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="182dp"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="148dp"
+            android:onClick="inscore"
+            android:text="@string/value1"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            style="@style/ScoreText1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="0dp"
+            style="@style/AddBtnTheme"
+            android:onClick="descore"
+            android:layout_marginTop="133dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="42dp"
+            style="@style/CutBtnTheme"
+            android:onClick="inscore"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="146dp"
+            android:text="@string/value1"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            style="@style/ScoreText1" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
